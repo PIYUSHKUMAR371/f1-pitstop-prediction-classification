@@ -241,11 +241,6 @@ Swagger UI will open automatically.
 }
 ```
 
-# Screenshot of the output in API
-```
-<img width="937" height="907" alt="image" src="https://github.com/user-attachments/assets/960a7778-7026-4c2e-a0c5-4c2ed16d874a" />
-```
-
 ---
 
 # 📁 Project Structure
