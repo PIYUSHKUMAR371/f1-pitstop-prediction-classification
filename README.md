@@ -20,8 +20,8 @@ Supervised Machine Learning — Binary Classification
 
 ---
 
-#Hey if you have any problem rending the ipynb file, GO HERE
-here is the notebook file that you can see
+# Hey if you have any problem rendering the ipynb file, GO HERE
+Here is the link where you can see notebook file as well
 ```
 https://colab.research.google.com/github/PIYUSHKUMAR371/f1-pitstop-prediction-classification/blob/main/f1_pediction_stops.ipynb
 
