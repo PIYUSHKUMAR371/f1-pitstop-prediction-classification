@@ -20,11 +20,21 @@ Supervised Machine Learning — Binary Classification
 
 ---
 
-# Hey if you have any problem rendering the ipynb file, GO HERE
-Here is the link where you can see notebook file as well
+# Notebook rendering note
+
+The original monolithic notebook was split into smaller Jupyter notebooks so the project renders more cleanly on GitHub and avoids oversized notebook issues.
+
+The workflow is now organized into:
+- `01_Data_Loading_EDA.ipynb`
+- `02_Feature_Engineering_and_Preprocessing.ipynb`
+- `03_Model_Training_Evaluation.ipynb`
+- `04_Prediction_and_Submission.ipynb`
+
+This keeps the full analysis readable and easier to run step by step.
+
+If you want to open the original combined notebook in Colab, use:
 ```
 https://colab.research.google.com/github/PIYUSHKUMAR371/f1-pitstop-prediction-classification/blob/main/f1_pediction_stops.ipynb
-
 ```
 
 # 🎯 Objective
@@ -260,14 +270,18 @@ f1-pitstop-prediction-classification/
 │   ├── test.csv
 │   └── sample_submission.csv
 │
-├── notebooks/
-│   └── f1_pitstop_prediction.ipynb
+├── f1_pediction_stops.ipynb                     # Original combined notebook kept for reference
+├── 01_Data_Loading_EDA.ipynb                   # Step 1: data loading & EDA
+├── 02_Feature_Engineering_and_Preprocessing.ipynb  # Step 2: feature engineering & prep
+├── 03_Model_Training_Evaluation.ipynb          # Step 3: training & evaluation
+├── 04_Prediction_and_Submission.ipynb          # Step 4: predictions & submission
 │
 ├── api.py
 ├── requirements.txt
 ├── submission.csv
 ├── xgboost_pitstop_model.pkl
 ├── label_encoders.pkl
+├── NOTEBOOK_GUIDE.md
 ├── README.md
 └── .gitignore
 ```
